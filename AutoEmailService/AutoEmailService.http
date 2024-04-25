@@ -1,0 +1,11 @@
+@AutoEmailService_HostAddress = http://localhost:5064
+
+POST {{AutoEmailService_HostAddress}}/Mail/SendMail
+Content-Type: application/json
+
+{
+  "EmailSubject": "",
+  "EmailBody": "",
+  "EmailToTable": "",
+  "SmtpModel": ""
+}
